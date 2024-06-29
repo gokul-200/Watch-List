@@ -80,7 +80,7 @@ export default async function WatchList(){
 
     return (
         <div className="bg-gradient-to-br from-blue-500 to-purple-600 min-h-screen flex justify-center items-center">
-            <div className="container mx-auto p-6 sm:p-12"className="bg-white shadow-lg rounded-lg p-8 max-w-3xl mx-auto w-full text-center">
+            <div className="container mx-auto p-6 sm:p-12">
                 <div className="mb-8 flex justify-between items-center">
                     <h1 className="text-4xl  mt-2 py-2 font-bold text-gray-800 mb-4">My Watch List</h1>
                     <form action="/auth/signout" method="post">
